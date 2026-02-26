@@ -1,0 +1,38 @@
+.head {
+  margin-top: 10px;
+}
+
+.show {
+  display: block;
+}
+
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+.card-img-top {
+  object-fit: contain;
+  height: 200px;
+  background-color: #f8f9fa;
+}
+
+.badge {
+  font-size: 0.8rem;
+  z-index: 1;
+}
+
+.cart-logo {
+  width: 50px;
+}
+
+.card-img {
+  width: 100px;
+}
